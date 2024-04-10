@@ -25,7 +25,7 @@ public interface JogadorController {
 
     @GetMapping("/jogador")
     public ResponseEntity<JogadorOut> read(
-        @RequestHeader(required = true, name = "id-Jogador") String idJogador
+        @RequestHeader(required = true, name = "id-jogador") String idJogador
     );
     
 }
