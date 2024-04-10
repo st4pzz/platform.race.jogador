@@ -6,6 +6,8 @@ import lombok.experimental.Accessors;
 @Accessors(fluent = true, chain = true)
 public record JogadorIn (
     String id,
+    String id_user,
+    String id_partida,
     String nome,
     String time,
     String posicao,
