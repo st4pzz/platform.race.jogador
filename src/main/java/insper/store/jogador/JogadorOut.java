@@ -5,7 +5,7 @@ import lombok.experimental.Accessors;
 @Builder
 @Accessors(fluent = true, chain = true)
 public record JogadorOut(
-    String id_jogador,
+    String id,
     String id_user,
     String id_partida,
     String nome,
