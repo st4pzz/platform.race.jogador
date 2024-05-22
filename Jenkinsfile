@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('Jenkins partida') {
+        stage('Jenkins Jogador') {
             steps {
-                echo 'Jenkins partida'
+                echo 'Jenkins Jogador'
             }
         }
         stage('Build') { 
