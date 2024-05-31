@@ -1,4 +1,4 @@
-# platform.race.partida
+# platform.race.jogador
 
 O código-fonte e a configuração dos nossos serviços estão disponíveis no GitHub no repositório [Platform.Race](https://github.com/st4pzz/platform.race).
 
