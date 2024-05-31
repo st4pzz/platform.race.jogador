@@ -18,20 +18,19 @@ A arquitetura do projeto utiliza uma abordagem de microserviços, onde cada comp
 ## Estrutura do Projeto
 
 ```
-platform.race.jogador/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── jogador/
-│   │   │               ├── controller/
-│   │   │               ├── model/
-│   │   │               ├── repository/
-│   │   │               └── service/
+jogador/
+│   ├── src/
+│   |    ├── main/
+│   |         ├── java/
+│   |           └── insper/
+│   |              └── store/
+│   |                  └── jogador/
+│   |                    ├── JogadorController/
+│   │                    ├── JogadorIn/
+│   │                    └── JogadorOut/
 │   └── resources/
+├── .gitignore
 ├── Jenkinsfile
-├── docker-compose.yml
 ├── README.md
 └── pom.xml
 ```
